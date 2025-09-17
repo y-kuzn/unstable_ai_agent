@@ -2,6 +2,38 @@ import streamlit as st
 
 # Page setup
 st.set_page_config(page_title="AI Literature Helper – Help", page_icon="🆘", layout="wide")
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://as2.ftcdn.net/v2/jpg/02/11/27/99/1000_F_211279982_8wjxc5J04fzMwQE0U0SmQueQqzibRB6P.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    /* Overlay layer */
+    .stApp::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.35); /* 👈 adjust opacity here */
+        z-index: 0;
+    }
+
+    /* Make sure app content stays above overlay */
+    .stApp > div {
+        position: relative;
+        z-index: 1;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # Sidebar navigation
 st.sidebar.title("📘 Help Navigation")
