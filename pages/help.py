@@ -136,8 +136,8 @@ elif section == "Run Locally with Personal APIs":
     ### 🔧 How to Do It
     1. Clone the GitHub repository:
        ```bash
-       git clone https://github.com/y-kuzn/unstable_ai_agent/ai_lit_agent.git
-       cd ai_lit_agent
+       git clone https://github.com/y-kuzn/unstable_ai_agent.git
+       cd unstable_ai_agent
        ```
     2. Install dependencies:
        ```bash
@@ -154,7 +154,7 @@ elif section == "Run Locally with Personal APIs":
        ```
     4. Run the app:
        ```bash
-       streamlit run lit_enhanced.py
+       streamlit run AI_literature_agent.py
        ```
 
     👉 This way, you’ll have a **faster, more reliable, and private** research assistant.
