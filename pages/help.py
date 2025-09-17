@@ -15,7 +15,7 @@ st.sidebar.markdown("---")
 
 st.sidebar.markdown("""
 <div style="text-align: center;">
-    <a href="https://ntu-ai-literature-search.streamlit.app/" target="_blank">
+    <a href="https://ai-literature-search.streamlit.app/" target="_blank">
         <button style="
             background-color: #4CAF50;
             color: white;
