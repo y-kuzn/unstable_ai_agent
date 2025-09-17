@@ -136,7 +136,7 @@ elif section == "Run Locally with Personal APIs":
     ### 🔧 How to Do It
     1. Clone the GitHub repository:
        ```bash
-       git clone https://github.com/y-kuzn/ai_lit_agent.git
+       git clone https://github.com/y-kuzn/unstable_ai_agent/ai_lit_agent.git
        cd ai_lit_agent
        ```
     2. Install dependencies:
