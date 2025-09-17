@@ -333,7 +333,7 @@ st.markdown("""
 </style>
 
 <div style='text-align: center; margin-top: 50px;'>
-    <a href='https://ntu-ai-literature-search-question.streamlit.app/' target='_blank' class='help-button'>
+    <a href='https://ai-literature-search-sos.streamlit.app/' target='_blank' class='help-button'>
         🆘 Visit Help Page
     </a>
 </div>
