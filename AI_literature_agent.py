@@ -319,7 +319,7 @@ st.markdown("""
     background-color: #f0f0f0;
     border: 2px solid black;
     border-radius: 8px;
-    text-decoration: none;
+    text-decoration: none;  /* 👈 Removes underline */
     transition: all 0.3s ease;
     box-shadow: 0 4px 14px rgba(0,0,0,0.1);
 }
