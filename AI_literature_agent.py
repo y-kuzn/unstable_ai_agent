@@ -307,3 +307,33 @@ if st.button("🚀 Fetch & Analyze Articles"):
                     st.success(f"✅ Added to Zotero (score {score:.2f})")
                 except Exception as e:
                     st.error(f"❌ Zotero error: {e}")
+
+st.markdown("""
+<style>
+.help-button {
+    display: inline-block;
+    padding: 0.6em 1.2em;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(90deg, #4F46E5, #3B82F6);
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+.help-button:hover {
+    background: linear-gradient(90deg, #3B82F6, #4F46E5);
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+</style>
+
+<div style='text-align: center; margin-top: 50px;'>
+    <a href='https://ntu-ai-literature-search-question.streamlit.app/' target='_blank' class='help-button'>
+        🆘 Visit Help Page
+    </a>
+</div>
+""", unsafe_allow_html=True)
+
