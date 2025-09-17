@@ -315,11 +315,11 @@ st.markdown("""
     padding: 0.6em 1.2em;
     font-size: 1.1em;
     font-weight: 600;
-    color: black;  /* 👈 Black text */
+    color: black !important;        /* force black text */
     background-color: #f0f0f0;
     border: 2px solid black;
     border-radius: 8px;
-    text-decoration: none;  /* 👈 Removes underline */
+    text-decoration: none !important; /* remove underline */
     transition: all 0.3s ease;
     box-shadow: 0 4px 14px rgba(0,0,0,0.1);
 }
@@ -327,6 +327,8 @@ st.markdown("""
     background-color: #e0e0e0;
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    color: black !important; /* keep text black on hover */
+    text-decoration: none !important;
 }
 </style>
 
