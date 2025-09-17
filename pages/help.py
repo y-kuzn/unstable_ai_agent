@@ -6,7 +6,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("https://as2.ftcdn.net/v2/jpg/02/11/27/99/1000_F_211279982_8wjxc5J04fzMwQE0U0SmQueQqzibRB6P.jpg");
+        background-image: url("https://drive.google.com/file/d/1j67CbKFZtYe-4ZuinN-yIcJd5VbVrTIX/view?usp=sharing");
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
