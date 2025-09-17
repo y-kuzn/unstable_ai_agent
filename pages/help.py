@@ -6,7 +6,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("https://drive.google.com/uc?export=view&id=1j67CbKFZtYe-4ZuinN-yIcJd5VbVrTIX");
+        background-image: url("https://github.com/y-kuzn/unstable_ai_agent/blob/b0c4598ae2d415aebef4b13aa5b98e56454ad036/Copilot_20250917_160729.png");
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
