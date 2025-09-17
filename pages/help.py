@@ -6,7 +6,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("https://drive.google.com/file/d/1j67CbKFZtYe-4ZuinN-yIcJd5VbVrTIX/view?usp=sharing");
+        background-image: url("https://drive.google.com/uc?export=view&id=1j67CbKFZtYe-4ZuinN-yIcJd5VbVrTIX");
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
