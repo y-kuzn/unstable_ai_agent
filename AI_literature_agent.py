@@ -315,16 +315,16 @@ st.markdown("""
     padding: 0.6em 1.2em;
     font-size: 1.1em;
     font-weight: 600;
-    color: white;
-    background: linear-gradient(90deg, #4F46E5, #3B82F6);
-    border: none;
+    color: black;  /* 👈 Black text */
+    background-color: #f0f0f0;
+    border: 2px solid black;
     border-radius: 8px;
     text-decoration: none;
     transition: all 0.3s ease;
     box-shadow: 0 4px 14px rgba(0,0,0,0.1);
 }
 .help-button:hover {
-    background: linear-gradient(90deg, #3B82F6, #4F46E5);
+    background-color: #e0e0e0;
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(0,0,0,0.2);
 }
@@ -336,4 +336,3 @@ st.markdown("""
     </a>
 </div>
 """, unsafe_allow_html=True)
-
